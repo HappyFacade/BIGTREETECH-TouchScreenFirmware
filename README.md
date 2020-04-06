@@ -60,7 +60,9 @@ See [Customization guides](https://github.com/bigtreetech/BIGTREETECH-TouchScree
 <li>Find the BIGTREETECH  firmware source directory , then click Open:
    <img src="https://user-images.githubusercontent.com/25599056/56637532-77115000-669e-11e9-809b-f6bc25412f75.png"></li>
   <li>After opening the project, edit <a href="platformio.ini"><code>platformio.ini</code></a> and change the <code>default_envs</code> to one that matches your TFT model and version:
-   <pre>;BIGTREE_TFT35_V1_0
+
+```ini
+;BIGTREE_TFT35_V1_0
 ;BIGTREE_TFT35_V1_1
 ;BIGTREE_TFT35_V1_2
 ;BIGTREE_TFT35_V2_0
@@ -75,7 +77,9 @@ See [Customization guides](https://github.com/bigtreetech/BIGTREETECH-TouchScree
 [platformio]
 src_dir      = TFT
 boards_dir   = buildroot/boards
-default_envs = BIGTREE_TFT35_V3_0</pre></li>
+default_envs = BIGTREE_TFT35_V3_0
+```
+  </li>
   <li>Click the check mark (✓) at the bottom of VSCode or press <code>Ctrl</code>+<code>Alt</code>+<code>B</code> (Windows) / <code>Ctrl</code>+<code>Option</code>+<code>B</code> (macOS) to compile.
 
 <img src="https://user-images.githubusercontent.com/25599056/56637550-809ab800-669e-11e9-99d3-6b502e294688.png"></li>
